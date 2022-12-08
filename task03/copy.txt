@@ -1,0 +1,6 @@
+Hello
+This File
+is to copy the
+contents to
+using python
+file operations.

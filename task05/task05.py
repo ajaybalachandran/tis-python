@@ -1,0 +1,7 @@
+f0 = open('file.txt', 'a')
+f0.close()
+f1 = open('file.txt', 'r')
+list1 = list(f1.read())
+print(list1)
+f1.close()
+print(ord())
