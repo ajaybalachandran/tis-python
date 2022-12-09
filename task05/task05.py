@@ -18,7 +18,9 @@ def my_count_fun():
             lower_case += 1
     for line in f1:
         for j in line.split():
+            # print(j[0])
             if j[0] in vowels:
+                # print(j[0])
                 word += 1
     f1.close()
     print(f'Number of alphabets = {alphabets}')
